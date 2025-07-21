@@ -13,7 +13,7 @@ public class Program {
 		
 		Seller seller = sellerDao.findById(1);
 		
-		
+		System.out.println("TESTE 1 -> FIND BY ID");
 		System.out.println(seller);
 	
 
